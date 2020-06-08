@@ -22,6 +22,10 @@
 	   fetch="https://github.com/ResurrectionRemix"
 	   revision="nougat" />
 
+  <remote  name="custom"
+	   fetch="https://github.com/user-ilang"
+	   revision="nougat" />
+
   <!-- AOSP Projects -->
   <project path="build" name="android_build" remote="rr" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -493,5 +497,6 @@
 
   <include name="snippets/rr-n.xml" />
   <include name="snippets/lineage.xml" />
+  <include name="snippets/custom.xml" />
 
 </manifest>
