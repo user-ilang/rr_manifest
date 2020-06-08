@@ -492,6 +492,6 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
   <include name="snippets/rr-n.xml" />
-  <include name="snippets/cm.xml" />
+  <include name="snippets/lineage.xml" />
 
 </manifest>
