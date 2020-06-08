@@ -3,6 +3,7 @@
 
   <!-- Use some repo from user-ilang's git instead of rr -->
   <project path="android" name="rr_manifest" remote="custom" />
+  <project path="android_build" name="rr_manifest" remote="custom" />
   <project path="vendor/cm" name="android_vendor_resurrection" remote="custom" />
 
 </manifest>
